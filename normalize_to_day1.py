@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-將每個 CSV 檔的 Open/High/Low/Close/Volume 欄位
-以「第一日值 = 100」來標準化，結果寫入 data_processed 資料夾。
+normalize_to_day1.py - 以「第一個有效交易日的收盤價 = 100」標準化
+
+功能：
+- 找到第一個 Close 不為 NaN 且 > 0 的交易日作為基準
+- 只正規化 Open/High/Low/Close/Volume（不影響 Ticker 等欄位）
+- 若整檔無有效 Close → 警告並輸出原檔
+- 支援 A股 6 位數字 ticker（如 600519.csv）
 
 使用：
     python normalize_to_day1.py
-
-假設：
-- 原始 CSV 檔放在 ./data 目錄，輸出到 ./data_processed。
-- CSV 有日期欄（通常叫 Date 或 index），並包含 Open/High/Low/Close/Volume（不區分大小寫）。
 """
 
 import os
@@ -16,100 +18,102 @@ import sys
 import glob
 import pandas as pd
 
-# 可配置區域
 INPUT_DIR = "data"
 OUTPUT_DIR = "data_processed"
-CSV_GLOB = "*.csv"  # 若需要支援 .CSV 或其他，這裡可以改成 "*.[cC][sS][vV]"
+CSV_GLOB = "*.csv"
 
-# 欄位首選名稱（會做不區分大小寫的比對）
 TARGET_COLS = ["Open", "High", "Low", "Close", "Volume"]
 
-def find_case_insensitive_cols(df, target_cols):
-    """
-    回傳一個 dict，把標準欄位名對應到 data frame 中實際欄位名（若存在）。
-    例如: {"Open": "open", "Close": "Close"}，不存在的欄位不會出現在 dict 裡。
-    """
-    cols_lower_map = {c.lower(): c for c in df.columns}
-    mapping = {}
-    for t in target_cols:
-        key = t.lower()
-        if key in cols_lower_map:
-            mapping[t] = cols_lower_map[key]
-    return mapping
 
-def normalize_df_day1(df, col_mapping):
+def find_case_insensitive_cols(df, target_cols):
+    """不區分大小寫找到欄位對應"""
+    cols_lower = {c.lower(): c for c in df.columns}
+    return {t: cols_lower.get(t.lower()) for t in target_cols if t.lower() in cols_lower}
+
+
+def normalize_df_day1(df, col_map, filename):
     """
-    對 df 中的實際欄位（由 col_mapping 提供）做第一日基數化（第一列數值 -> 100）。
-    回傳新的 DataFrame（複本）。若第一日為 0 或 NaN，該欄將被設定為 NaN，並會在呼叫處產生警告。
+    以第一個有效 Close 為基準正規化
+    返回處理後的 DataFrame
     """
     out = df.copy()
-    for std_col, actual_col in col_mapping.items():
-        series = out[actual_col].astype(float)  # 轉 float，若有 NaN 會保留
-        if series.size == 0:
-            print(f"警告: 欄位 {actual_col} 無資料，跳過。")
-            continue
-        first_val = series.iloc[0]
-        if pd.isna(first_val):
-            print(f"警告: 檔案 '{current_file}' 欄位 '{actual_col}' 第一日為 NaN，該欄結果將為 NaN。")
-            out[actual_col] = pd.NA
-            continue
-        try:
-            if float(first_val) == 0.0:
-                print(f"警告: 檔案 '{current_file}' 欄位 '{actual_col}' 第一日為 0，除以零被避開，該欄結果將為 NaN。")
-                out[actual_col] = pd.NA
-                continue
-        except Exception:
-            print(f"警告: 無法將欄位 '{actual_col}' 第一日值轉為數字 (value={first_val})，該欄將被跳過。")
-            out[actual_col] = pd.NA
-            continue
 
-        out[actual_col] = (series / float(first_val)) * 100.0
+    # 先確認有沒有 Close 欄位
+    close_col = col_map.get("Close")
+    if not close_col:
+        print(f"  警告：{filename} 沒有 Close 欄位，無法正規化")
+        return out
+
+    # 轉成 numeric，錯誤變 NaN
+    close_series = pd.to_numeric(out[close_col], errors='coerce')
+
+    # 找到第一個有效 Close（非 NaN 且 > 0）
+    valid_mask = (close_series.notna()) & (close_series > 0)
+    if not valid_mask.any():
+        print(f"  警告：{filename} 全檔 Close 無有效值（全 NaN 或 ≤0），跳過正規化")
+        return out
+
+    # 第一個有效交易日的索引
+    first_valid_idx = close_series[valid_mask].index[0]
+    base_value = close_series.loc[first_valid_idx]
+
+    print(f"  {filename} 使用第 {first_valid_idx + 1} 筆資料作為基準 (Close = {base_value})")
+
+    # 正規化所有目標欄位
+    for std_col, actual_col in col_map.items():
+        series = pd.to_numeric(out[actual_col], errors='coerce')
+        # 只對有效值做正規化，無效值保持 NaN
+        out[actual_col] = (series / base_value) * 100.0
+
     return out
 
+
 if __name__ == "__main__":
-    # 檢查資料夾
     if not os.path.isdir(INPUT_DIR):
-        print(f"錯誤: 找不到輸入資料夾 '{INPUT_DIR}'。請確認你在正確目錄且資料夾存在。")
+        print(f"錯誤：輸入資料夾 '{INPUT_DIR}' 不存在")
         sys.exit(1)
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    pattern = os.path.join(INPUT_DIR, CSV_GLOB)
-    files = sorted(glob.glob(pattern))
+    files = sorted(glob.glob(os.path.join(INPUT_DIR, CSV_GLOB)))
     if not files:
-        print(f"在 '{INPUT_DIR}' 未找到符合模式 {CSV_GLOB} 的 CSV 檔。")
+        print(f"在 {INPUT_DIR} 找不到任何 CSV 檔案")
         sys.exit(1)
 
-    print(f"找到 {len(files)} 個檔案，開始處理...")
+    print(f"找到 {len(files)} 個 CSV 檔案，開始處理...\n")
 
-    # 使用全域變數 current_file 以便在函式中能打印檔名（簡單做法）
     for filepath in files:
-        current_file = os.path.basename(filepath)
+        filename = os.path.basename(filepath)
+        print(f"處理：{filename}")
+
         try:
-            # 讀取 CSV，嘗試解析日期欄
-            df = pd.read_csv(filepath, parse_dates=True, infer_datetime_format=True)
+            df = pd.read_csv(
+                filepath,
+                parse_dates=['Date'],
+                date_format='%Y-%m-%d',
+                low_memory=False
+            )
         except Exception as e:
-            print(f"錯誤: 讀取檔案 '{current_file}' 失敗: {e}. 跳過此檔.")
+            print(f"  錯誤：讀取失敗 {e}，跳過")
             continue
 
         if df.empty:
-            print(f"警告: '{current_file}' 為空檔案，跳過。")
+            print(f"  警告：檔案為空，跳過")
             continue
 
-        # 找出欄位對應
         col_map = find_case_insensitive_cols(df, TARGET_COLS)
         if not col_map:
-            print(f"警告: '{current_file}' 未找到 Open/High/Low/Close/Volume 欄位中的任何一個，原檔複製到輸出資料夾。")
+            print(f"  警告：沒有找到任何 OHLCV 欄位，直接複製原檔")
             out_df = df
         else:
-            out_df = normalize_df_day1(df, col_map)
+            out_df = normalize_df_day1(df, col_map, filename)
 
-        # 若原檔只有 index 為日期（沒有 Date 欄），嘗試保留行索引不變；否則保留原 DataFrame 結構
-        out_path = os.path.join(OUTPUT_DIR, current_file)
+        # 寫出
+        out_path = os.path.join(OUTPUT_DIR, filename)
         try:
             out_df.to_csv(out_path, index=False)
-            print(f"已處理並寫入：{out_path}")
+            print(f"  已寫入：{out_path}")
         except Exception as e:
-            print(f"錯誤: 無法寫入 '{out_path}': {e}")
+            print(f"  寫入失敗：{e}")
 
-    print("全部處理完成。")
+    print("\n全部處理完成。")

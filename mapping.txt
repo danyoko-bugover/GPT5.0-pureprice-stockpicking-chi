@@ -1,504 +1,281 @@
-# new_basename	original_path
-jlofr	data_processed/A.csv
-napny	data_processed/AAPL.csv
-pvxxq	data_processed/ABBV.csv
-wnpix	data_processed/ABNB.csv
-hvtzf	data_processed/ABT.csv
-cqsue	data_processed/ACGL.csv
-hbjic	data_processed/ACN.csv
-pnpsy	data_processed/ADBE.csv
-scapi	data_processed/ADI.csv
-mmtwn	data_processed/ADM.csv
-qyldr	data_processed/ADP.csv
-okyhg	data_processed/ADSK.csv
-qsqfm	data_processed/AEE.csv
-laoip	data_processed/AEP.csv
-kizas	data_processed/AES.csv
-xoqwb	data_processed/AFL.csv
-fuwuv	data_processed/AIG.csv
-trqva	data_processed/AIZ.csv
-ysbmw	data_processed/AJG.csv
-bhydq	data_processed/AKAM.csv
-bonpk	data_processed/ALB.csv
-uaobm	data_processed/ALGN.csv
-pjalj	data_processed/ALL.csv
-punsb	data_processed/ALLE.csv
-yuqou	data_processed/AMAT.csv
-iqnsv	data_processed/AMCR.csv
-uocke	data_processed/AMD.csv
-vgffw	data_processed/AME.csv
-fjawl	data_processed/AMGN.csv
-uzkxt	data_processed/AMP.csv
-ldtkz	data_processed/AMT.csv
-cuvob	data_processed/AMZN.csv
-lbqbk	data_processed/ANET.csv
-njbhk	data_processed/AON.csv
-pssse	data_processed/AOS.csv
-vozoa	data_processed/APA.csv
-pdysj	data_processed/APD.csv
-xoqxz	data_processed/APH.csv
-wuouf	data_processed/APO.csv
-zigin	data_processed/APP.csv
-kywwk	data_processed/APTV.csv
-ajmtj	data_processed/ARE.csv
-jqnmw	data_processed/ARES.csv
-vapjs	data_processed/ATO.csv
-rdvyy	data_processed/AVB.csv
-hxics	data_processed/AVGO.csv
-knkah	data_processed/AVY.csv
-yvldk	data_processed/AWK.csv
-rgidn	data_processed/AXON.csv
-jwfch	data_processed/AXP.csv
-gcqdn	data_processed/AZO.csv
-vohqx	data_processed/BA.csv
-vybrp	data_processed/BAC.csv
-dirkt	data_processed/BALL.csv
-tyvuz	data_processed/BAX.csv
-kbosd	data_processed/BBY.csv
-fmuwx	data_processed/BDX.csv
-ycwxm	data_processed/BEN.csv
-uloda	data_processed/BF-B.csv
-cwzlx	data_processed/BG.csv
-jmpnn	data_processed/BIIB.csv
-zhnzn	data_processed/BK.csv
-uzode	data_processed/BKNG.csv
-ykpdu	data_processed/BKR.csv
-mxnov	data_processed/BLDR.csv
-gaqrp	data_processed/BLK.csv
-pdzlm	data_processed/BMY.csv
-bjqem	data_processed/BR.csv
-htouo	data_processed/BRK-B.csv
-hrvpf	data_processed/BRO.csv
-umchj	data_processed/BSX.csv
-heodt	data_processed/BX.csv
-eltdf	data_processed/BXP.csv
-amcgw	data_processed/C.csv
-eautg	data_processed/CAG.csv
-dluho	data_processed/CAH.csv
-qkgqi	data_processed/CARR.csv
-gtfpp	data_processed/CAT.csv
-etkpf	data_processed/CB.csv
-mzcrr	data_processed/CBOE.csv
-hpuiy	data_processed/CBRE.csv
-sscpd	data_processed/CCI.csv
-pqdne	data_processed/CCL.csv
-fgqbo	data_processed/CDNS.csv
-rksjm	data_processed/CDW.csv
-jogzo	data_processed/CEG.csv
-rtibs	data_processed/CF.csv
-zqzjn	data_processed/CFG.csv
-dizof	data_processed/CHD.csv
-otzmo	data_processed/CHRW.csv
-yhfge	data_processed/CHTR.csv
-kpavt	data_processed/CI.csv
-tllpm	data_processed/CIEN.csv
-qeddb	data_processed/CINF.csv
-tydrf	data_processed/CL.csv
-cypur	data_processed/CLX.csv
-zcfey	data_processed/CMCSA.csv
-nubmo	data_processed/CME.csv
-fcacj	data_processed/CMG.csv
-xcnjy	data_processed/CMI.csv
-bwxwy	data_processed/CMS.csv
-liwue	data_processed/CNC.csv
-dopop	data_processed/CNP.csv
-ndjqb	data_processed/COF.csv
-ifaul	data_processed/COIN.csv
-lnndp	data_processed/COO.csv
-gapwy	data_processed/COP.csv
-lqdzw	data_processed/COR.csv
-crlgp	data_processed/COST.csv
-ejbbe	data_processed/CPAY.csv
-zuajh	data_processed/CPB.csv
-mwwid	data_processed/CPRT.csv
-nbspl	data_processed/CPT.csv
-pafen	data_processed/CRH.csv
-ascnj	data_processed/CRL.csv
-keciz	data_processed/CRM.csv
-imthi	data_processed/CRWD.csv
-vpqrz	data_processed/CSCO.csv
-lsulk	data_processed/CSGP.csv
-qovyw	data_processed/CSX.csv
-qgbjn	data_processed/CTAS.csv
-noqjk	data_processed/CTRA.csv
-xstcp	data_processed/CTSH.csv
-exdkv	data_processed/CTVA.csv
-tfpvw	data_processed/CVNA.csv
-aiuhy	data_processed/CVS.csv
-vupgm	data_processed/CVX.csv
-wlxbk	data_processed/D.csv
-lpmbw	data_processed/DAL.csv
-xxidf	data_processed/DASH.csv
-mthhh	data_processed/DD.csv
-wiosp	data_processed/DDOG.csv
-ddovi	data_processed/DE.csv
-xisbt	data_processed/DECK.csv
-bhteq	data_processed/DELL.csv
-cbuws	data_processed/DG.csv
-vowmx	data_processed/DGX.csv
-gonmg	data_processed/DHI.csv
-rcrqh	data_processed/DHR.csv
-uqrxd	data_processed/DIS.csv
-vhfuq	data_processed/DLR.csv
-bcztg	data_processed/DLTR.csv
-lflsz	data_processed/DOC.csv
-qsgid	data_processed/DOV.csv
-txwlh	data_processed/DOW.csv
-ravov	data_processed/DPZ.csv
-ouvhm	data_processed/DRI.csv
-vddsf	data_processed/DTE.csv
-lgvwe	data_processed/DUK.csv
-opsoh	data_processed/DVA.csv
-dhwrz	data_processed/DVN.csv
-qoadg	data_processed/DXCM.csv
-hgdcl	data_processed/EA.csv
-udpid	data_processed/EBAY.csv
-xmxde	data_processed/ECL.csv
-ckdgt	data_processed/ED.csv
-pywag	data_processed/EFX.csv
-znzhq	data_processed/EG.csv
-fbaxc	data_processed/EIX.csv
-teuja	data_processed/EL.csv
-ixmkl	data_processed/ELV.csv
-anpnb	data_processed/EME.csv
-udvxu	data_processed/EMR.csv
-klpnh	data_processed/EOG.csv
-zedqv	data_processed/EPAM.csv
-jqewd	data_processed/EQIX.csv
-aafzd	data_processed/EQR.csv
-lqvrv	data_processed/EQT.csv
-aysnb	data_processed/ERIE.csv
-tprom	data_processed/ES.csv
-nubgw	data_processed/ESS.csv
-rvhuu	data_processed/ETN.csv
-pxzei	data_processed/ETR.csv
-dzncx	data_processed/EVRG.csv
-pmrte	data_processed/EW.csv
-lfiwc	data_processed/EXC.csv
-sbsed	data_processed/EXE.csv
-ldqvy	data_processed/EXPD.csv
-lijie	data_processed/EXPE.csv
-aiyhr	data_processed/EXR.csv
-hsinn	data_processed/F.csv
-dydsf	data_processed/FANG.csv
-jkepk	data_processed/FAST.csv
-qzryc	data_processed/FCX.csv
-vhaac	data_processed/FDS.csv
-gxhoa	data_processed/FDX.csv
-ygioa	data_processed/FE.csv
-gjbjf	data_processed/FFIV.csv
-rrbrm	data_processed/FICO.csv
-ymwyf	data_processed/FIS.csv
-kgniw	data_processed/FISV.csv
-jdoes	data_processed/FITB.csv
-uylxr	data_processed/FIX.csv
-izxer	data_processed/FOX.csv
-qqygy	data_processed/FOXA.csv
-lpcxx	data_processed/FRT.csv
-datbk	data_processed/FSLR.csv
-xyxsg	data_processed/FTNT.csv
-tfzfp	data_processed/FTV.csv
-enomt	data_processed/GD.csv
-aztdn	data_processed/GDDY.csv
-tqwip	data_processed/GE.csv
-ehnux	data_processed/GEHC.csv
-heora	data_processed/GEN.csv
-zzrgm	data_processed/GEV.csv
-ajcvp	data_processed/GILD.csv
-nirsw	data_processed/GIS.csv
-erjbf	data_processed/GL.csv
-yjwgf	data_processed/GLW.csv
-bhrfx	data_processed/GM.csv
-mcosx	data_processed/GNRC.csv
-rjdqe	data_processed/GOOG.csv
-fcuwa	data_processed/GOOGL.csv
-wdysi	data_processed/GPC.csv
-kohdg	data_processed/GPN.csv
-bpfji	data_processed/GRMN.csv
-vsdqx	data_processed/GS.csv
-zvipy	data_processed/GWW.csv
-nzhui	data_processed/HAL.csv
-wxzhv	data_processed/HAS.csv
-xecvu	data_processed/HBAN.csv
-petdw	data_processed/HCA.csv
-rsvnt	data_processed/HD.csv
-svyxz	data_processed/HIG.csv
-issuk	data_processed/HII.csv
-twmvw	data_processed/HLT.csv
-givvo	data_processed/HOLX.csv
-nadhy	data_processed/HON.csv
-dkrmv	data_processed/HOOD.csv
-oprdb	data_processed/HPE.csv
-ojoif	data_processed/HPQ.csv
-vteao	data_processed/HRL.csv
-mkwqz	data_processed/HSIC.csv
-bvsnk	data_processed/HST.csv
-uhdpl	data_processed/HSY.csv
-xfldi	data_processed/HUBB.csv
-xeair	data_processed/HUM.csv
-efozj	data_processed/HWM.csv
-fzozf	data_processed/IBKR.csv
-lnmyj	data_processed/IBM.csv
-exjnk	data_processed/ICE.csv
-jkevy	data_processed/IDXX.csv
-bpwfz	data_processed/IEX.csv
-rcbsw	data_processed/IFF.csv
-hgorg	data_processed/INCY.csv
-exsro	data_processed/INTC.csv
-djtua	data_processed/INTU.csv
-jpaux	data_processed/INVH.csv
-bqfjj	data_processed/IP.csv
-pppor	data_processed/IQV.csv
-rafac	data_processed/IR.csv
-bgbes	data_processed/IRM.csv
-fuomw	data_processed/ISRG.csv
-usiwc	data_processed/IT.csv
-goacz	data_processed/ITW.csv
-bucts	data_processed/IVZ.csv
-ayaqd	data_processed/J.csv
-lrhdb	data_processed/JBHT.csv
-srwnv	data_processed/JBL.csv
-zamul	data_processed/JCI.csv
-ivfxd	data_processed/JKHY.csv
-yvypz	data_processed/JNJ.csv
-gdhpw	data_processed/JPM.csv
-situz	data_processed/KDP.csv
-itegl	data_processed/KEY.csv
-zhgkt	data_processed/KEYS.csv
-avhzx	data_processed/KHC.csv
-rdrko	data_processed/KIM.csv
-vurmf	data_processed/KKR.csv
-ybkbb	data_processed/KLAC.csv
-nwgxd	data_processed/KMB.csv
-rtcox	data_processed/KMI.csv
-xeegw	data_processed/KO.csv
-fhyrv	data_processed/KR.csv
-slddz	data_processed/KVUE.csv
-ogtgu	data_processed/L.csv
-lkqpc	data_processed/LDOS.csv
-fjswg	data_processed/LEN.csv
-hjyeo	data_processed/LH.csv
-xjwja	data_processed/LHX.csv
-olycx	data_processed/LII.csv
-ltrim	data_processed/LIN.csv
-ffojp	data_processed/LLY.csv
-rhrxe	data_processed/LMT.csv
-korbl	data_processed/LNT.csv
-nmaph	data_processed/LOW.csv
-zywyp	data_processed/LRCX.csv
-nmhtw	data_processed/LULU.csv
-qpmww	data_processed/LUV.csv
-xqnad	data_processed/LVS.csv
-fewjt	data_processed/LW.csv
-zcyqa	data_processed/LYB.csv
-rrcot	data_processed/LYV.csv
-qeuvs	data_processed/MA.csv
-odmfc	data_processed/MAA.csv
-pewgg	data_processed/MAR.csv
-navpj	data_processed/MAS.csv
-dvbie	data_processed/MCD.csv
-witus	data_processed/MCHP.csv
-zpeyw	data_processed/MCK.csv
-qaphr	data_processed/MCO.csv
-yhvjb	data_processed/MDLZ.csv
-vaixg	data_processed/MDT.csv
-ypvoj	data_processed/MET.csv
-acfgz	data_processed/META.csv
-lvepu	data_processed/MGM.csv
-dnqjg	data_processed/MKC.csv
-acdot	data_processed/MLM.csv
-dzntd	data_processed/MMM.csv
-zudkr	data_processed/MNST.csv
-flgdy	data_processed/MO.csv
-kulep	data_processed/MOH.csv
-wrikd	data_processed/MOS.csv
-rhsdl	data_processed/MPC.csv
-egopp	data_processed/MPWR.csv
-qmojv	data_processed/MRK.csv
-lfihs	data_processed/MRNA.csv
-nbdgb	data_processed/MRSH.csv
-tdbui	data_processed/MS.csv
-zvcbq	data_processed/MSCI.csv
-amjle	data_processed/MSFT.csv
-lntlp	data_processed/MSI.csv
-vavbl	data_processed/MTB.csv
-wpken	data_processed/MTCH.csv
-lhtui	data_processed/MTD.csv
-yamyy	data_processed/MU.csv
-ruvru	data_processed/NCLH.csv
-kmihb	data_processed/NDAQ.csv
-yvzvx	data_processed/NDSN.csv
-zvqfm	data_processed/NEE.csv
-lclje	data_processed/NEM.csv
-epiyk	data_processed/NFLX.csv
-ilekv	data_processed/NI.csv
-mxzdm	data_processed/NKE.csv
-qvdrq	data_processed/NOC.csv
-czndi	data_processed/NOW.csv
-nlbvj	data_processed/NRG.csv
-mbqpc	data_processed/NSC.csv
-quegm	data_processed/NTAP.csv
-wumvr	data_processed/NTRS.csv
-vndpm	data_processed/NUE.csv
-uaydi	data_processed/NVDA.csv
-weqry	data_processed/NVR.csv
-tnimh	data_processed/NWS.csv
-crgjn	data_processed/NWSA.csv
-lsjth	data_processed/NXPI.csv
-hikwd	data_processed/O.csv
-wzinj	data_processed/ODFL.csv
-djkyc	data_processed/OKE.csv
-vavhk	data_processed/OMC.csv
-jtcdy	data_processed/ON.csv
-yfocc	data_processed/ORCL.csv
-xsqjv	data_processed/ORLY.csv
-ysymw	data_processed/OTIS.csv
-akunz	data_processed/OXY.csv
-cmfbf	data_processed/PANW.csv
-ewcdq	data_processed/PAYC.csv
-skjfn	data_processed/PAYX.csv
-qlgyu	data_processed/PCAR.csv
-jixrp	data_processed/PCG.csv
-akqsl	data_processed/PEG.csv
-wmokb	data_processed/PEP.csv
-jxdba	data_processed/PFE.csv
-iyvqu	data_processed/PFG.csv
-tczjy	data_processed/PG.csv
-vepip	data_processed/PGR.csv
-rwglv	data_processed/PH.csv
-kvmgj	data_processed/PHM.csv
-ehocm	data_processed/PKG.csv
-dpevi	data_processed/PLD.csv
-jjorj	data_processed/PLTR.csv
-jlamy	data_processed/PM.csv
-nsmnj	data_processed/PNC.csv
-sivvt	data_processed/PNR.csv
-bembo	data_processed/PNW.csv
-zzhwa	data_processed/PODD.csv
-proan	data_processed/POOL.csv
-gnrbd	data_processed/PPG.csv
-lzpzg	data_processed/PPL.csv
-qedpa	data_processed/PRU.csv
-pkcvh	data_processed/PSA.csv
-swpcb	data_processed/PSKY.csv
-psyhk	data_processed/PSX.csv
-nconn	data_processed/PTC.csv
-urmwp	data_processed/PWR.csv
-etxks	data_processed/PYPL.csv
-qedoz	data_processed/Q.csv
-pvtze	data_processed/QCOM.csv
-nynps	data_processed/RCL.csv
-aeugp	data_processed/REG.csv
-vdluo	data_processed/REGN.csv
-boyuu	data_processed/RF.csv
-kwggo	data_processed/RJF.csv
-nfcbg	data_processed/RL.csv
-whabb	data_processed/RMD.csv
-idbih	data_processed/ROK.csv
-llkre	data_processed/ROL.csv
-abezp	data_processed/ROP.csv
-fbfvz	data_processed/ROST.csv
-sgopw	data_processed/RSG.csv
-kewcu	data_processed/RTX.csv
-ggglq	data_processed/RVTY.csv
-hwkxe	data_processed/SBAC.csv
-kpzdo	data_processed/SBUX.csv
-ezvkt	data_processed/SCHW.csv
-sidoq	data_processed/SHW.csv
-swtnr	data_processed/SJM.csv
-thcqr	data_processed/SLB.csv
-zybhw	data_processed/SMCI.csv
-vevns	data_processed/SNA.csv
-zevuc	data_processed/SNDK.csv
-ewsok	data_processed/SNPS.csv
-tkffe	data_processed/SO.csv
-spzym	data_processed/SOLV.csv
-qfckp	data_processed/SPG.csv
-mdfat	data_processed/SPGI.csv
-eowii	data_processed/SRE.csv
-xfcwd	data_processed/STE.csv
-rgqux	data_processed/STLD.csv
-rgbea	data_processed/STT.csv
-aulsx	data_processed/STX.csv
-gnspj	data_processed/STZ.csv
-qxnvz	data_processed/SW.csv
-ctgez	data_processed/SWK.csv
-poupc	data_processed/SWKS.csv
-ndeuq	data_processed/SYF.csv
-nxffi	data_processed/SYK.csv
-xkwzn	data_processed/SYY.csv
-vnynd	data_processed/T.csv
-uebza	data_processed/TAP.csv
-tyamx	data_processed/TDG.csv
-gkjdw	data_processed/TDY.csv
-vszip	data_processed/TECH.csv
-jssht	data_processed/TEL.csv
-lvjyr	data_processed/TER.csv
-mfwsj	data_processed/TFC.csv
-mewsj	data_processed/TGT.csv
-kpbqt	data_processed/TJX.csv
-uydju	data_processed/TKO.csv
-qphrd	data_processed/TMO.csv
-raiwv	data_processed/TMUS.csv
-yiipm	data_processed/TPL.csv
-csvgs	data_processed/TPR.csv
-ymzfp	data_processed/TRGP.csv
-omnfc	data_processed/TRMB.csv
-kxkho	data_processed/TROW.csv
-mmouv	data_processed/TRV.csv
-eepvw	data_processed/TSCO.csv
-xlfkq	data_processed/TSLA.csv
-jjcdr	data_processed/TSN.csv
-kmyca	data_processed/TT.csv
-ocfie	data_processed/TTD.csv
-tbkpa	data_processed/TTWO.csv
-lpzqw	data_processed/TXN.csv
-pbxwx	data_processed/TXT.csv
-ikpjk	data_processed/TYL.csv
-kcnzm	data_processed/UAL.csv
-kgztf	data_processed/UBER.csv
-bfiyd	data_processed/UDR.csv
-zkvpw	data_processed/UHS.csv
-sszkd	data_processed/ULTA.csv
-mncbh	data_processed/UNH.csv
-ratrk	data_processed/UNP.csv
-rerwx	data_processed/UPS.csv
-cxtwq	data_processed/URI.csv
-cdqhx	data_processed/USB.csv
-itgje	data_processed/V.csv
-bqxke	data_processed/VICI.csv
-yaoxm	data_processed/VLO.csv
-sxwnb	data_processed/VLTO.csv
-qpkrz	data_processed/VMC.csv
-lfpkl	data_processed/VRSK.csv
-heynp	data_processed/VRSN.csv
-hvilg	data_processed/VRTX.csv
-eqcfd	data_processed/VST.csv
-udfnt	data_processed/VTR.csv
-rywbm	data_processed/VTRS.csv
-hgwmt	data_processed/VZ.csv
-uunff	data_processed/WAB.csv
-pjmkt	data_processed/WAT.csv
-wsgfl	data_processed/WBD.csv
-yzfrf	data_processed/WDAY.csv
-yddtn	data_processed/WDC.csv
-rtvtt	data_processed/WEC.csv
-kjytu	data_processed/WELL.csv
-dkswt	data_processed/WFC.csv
-lxdxm	data_processed/WM.csv
-kfyko	data_processed/WMB.csv
-xfxij	data_processed/WMT.csv
-wrktp	data_processed/WRB.csv
-rqdub	data_processed/WSM.csv
-zscam	data_processed/WST.csv
-vjeaw	data_processed/WTW.csv
-kkvcz	data_processed/WY.csv
-ohxgi	data_processed/WYNN.csv
-arpot	data_processed/XEL.csv
-odbup	data_processed/XOM.csv
-lpddk	data_processed/XYL.csv
-jlzoh	data_processed/XYZ.csv
-ibxzo	data_processed/YUM.csv
-uuwzs	data_processed/ZBH.csv
-rjhda	data_processed/ZBRA.csv
-rrwus	data_processed/ZTS.csv
+000001 -> DLOFS
+000002 -> ZHWSM
+000063 -> XTIOA
+000100 -> LDJLG
+000157 -> BUOPF
+000166 -> BOTBY
+000301 -> GFPRS
+000333 -> ZDKAF
+000338 -> ZTBWZ
+000408 -> KZIYL
+000425 -> HHVAG
+000538 -> SVDQO
+000568 -> DHSAT
+000596 -> HMYMP
+000617 -> BIJZY
+000625 -> BEQCT
+000630 -> LABXU
+000651 -> ZHXXP
+000661 -> NYULL
+000708 -> AYABA
+000725 -> SSKBD
+000768 -> KOEXK
+000776 -> TJXUA
+000792 -> HUTWX
+000807 -> ZPOZZ
+000858 -> HLQUO
+000876 -> OACVR
+000895 -> KBPSZ
+000938 -> XSTIR
+000963 -> OPRBO
+000975 -> KEGQV
+000977 -> MMMCO
+000983 -> ATCEA
+000999 -> IFTHQ
+001391 -> DEZTN
+001979 -> TOJAL
+002001 -> EDBAW
+002027 -> CRUYB
+002028 -> EYWOT
+002049 -> QCVDS
+002142 -> SIJNJ
+002179 -> CHFCC
+002230 -> UAYZZ
+002236 -> KVVBL
+002241 -> KWJET
+002252 -> ACLQI
+002304 -> VTBVZ
+002311 -> ZRUKK
+002352 -> UGWIL
+002371 -> UUQXL
+002384 -> XUUZA
+002415 -> GJMUI
+002422 -> ISTML
+002459 -> BTOCO
+002460 -> NYGEM
+002463 -> TGFWZ
+002466 -> ZGSRZ
+002475 -> ALQLL
+002594 -> POEWK
+002600 -> OOINC
+002601 -> TOGGL
+002625 -> KBXSD
+002648 -> NZMIT
+002709 -> QAIDH
+002714 -> TKXNW
+002736 -> RAXKD
+002916 -> WAHOP
+002920 -> EHPDB
+002938 -> WPRXQ
+003816 -> BDJJP
+300014 -> LMLRU
+300015 -> KFDNY
+300033 -> KEOUH
+300059 -> DLMNZ
+300122 -> RJJXZ
+300124 -> UYALL
+300251 -> ZAINS
+300274 -> GHTVC
+300308 -> APDKN
+300316 -> MECFE
+300347 -> CRVSA
+300394 -> REXWG
+300413 -> MIQUC
+300418 -> IXWYG
+300442 -> JEEVD
+300476 -> IWGDW
+300498 -> IJRLM
+300502 -> XHIUA
+300628 -> ZHGNY
+300661 -> DATNH
+300750 -> VQNJI
+300759 -> BGDWV
+300760 -> XYNAT
+300782 -> AXFAU
+300803 -> XWPFM
+300832 -> SBDKL
+300866 -> NCSVI
+300896 -> IPTHK
+300979 -> YBODQ
+300999 -> SEAJJ
+301236 -> AIKTE
+301269 -> XZYEG
+302132 -> MGTRV
+600009 -> ORRCZ
+600010 -> WKGMB
+600011 -> XTQJG
+600015 -> MLJRD
+600016 -> ZICXW
+600018 -> VHABG
+600019 -> FJFSA
+600023 -> CRMJH
+600025 -> IMXLC
+600026 -> LYEOU
+600027 -> NMTUS
+600028 -> SSKPN
+600029 -> UNPPZ
+600030 -> ZRJOM
+600031 -> DQDQZ
+600036 -> HCGBE
+600039 -> FXSUX
+600048 -> KSLMA
+600050 -> EKFWO
+600061 -> FSPCF
+600066 -> OGGXZ
+600089 -> ETTEP
+600111 -> TDWGN
+600115 -> ROMBK
+600150 -> HCXOL
+600160 -> RKRCW
+600161 -> OIFUI
+600176 -> VHYXK
+600183 -> IZGOH
+600188 -> NSVEW
+600219 -> FNODT
+600233 -> KUHHB
+600276 -> IOUJO
+600346 -> LQYVY
+600362 -> NXAYG
+600372 -> DKEBW
+600377 -> MLQVU
+600406 -> TDCPQ
+600415 -> MHHEC
+600426 -> PEILL
+600436 -> BGIAM
+600438 -> HPEQY
+600482 -> BNHBH
+600489 -> GJQAL
+600515 -> IZMMH
+600519 -> TPQGF
+600522 -> TLBJK
+600547 -> HAMYC
+600570 -> QSECK
+600585 -> SEIUU
+600588 -> MHUYT
+600600 -> QDVMX
+600660 -> ADHWA
+600674 -> CEIDY
+600690 -> LGHSR
+600760 -> YNXMP
+600803 -> QMMCV
+600809 -> XCWLK
+600845 -> NCLOW
+600875 -> ADOZR
+600886 -> AUZMW
+600887 -> OTAOW
+600893 -> LZYWK
+600905 -> VWCEC
+600918 -> QFJFI
+600919 -> MTAKP
+600926 -> SZBKU
+600930 -> ULLZW
+600938 -> LPRLK
+600958 -> ZXBVG
+600989 -> YFJTY
+600999 -> ARUJH
+601006 -> JCIXF
+601009 -> KBPDI
+601012 -> YMQHW
+601018 -> QOQVO
+601021 -> MNXXD
+601058 -> WCGKP
+601059 -> NHRHB
+601066 -> XHPKI
+601077 -> AOABR
+601088 -> JBLBJ
+601100 -> FOEKQ
+601111 -> THKAZ
+601127 -> BVYLR
+601136 -> DJLYT
+601138 -> HXBOP
+601166 -> HVGVZ
+601169 -> MFOSX
+601186 -> TMDLN
+601211 -> HJIPQ
+601225 -> SSPND
+601229 -> QPPUR
+601236 -> ILWVL
+601238 -> ZRMYQ
+601288 -> MUAVS
+601298 -> UTLHM
+601318 -> SMRWZ
+601319 -> LTZMM
+601328 -> PAQMP
+601336 -> CHSCI
+601360 -> PHGAD
+601377 -> RHQHK
+601390 -> VGWNQ
+601398 -> JMLEM
+601456 -> IIQRN
+601600 -> MXFWL
+601601 -> DZRVH
+601607 -> HKREX
+601618 -> IJZMT
+601628 -> XBJYQ
+601633 -> SXQNM
+601658 -> HSOIJ
+601668 -> XKLAW
+601669 -> PGLHQ
+601688 -> OQOUH
+601689 -> OBQXP
+601698 -> DUJQC
+601728 -> RQIUB
+601766 -> VCERU
+601788 -> FMSNE
+601800 -> TGIZN
+601808 -> ZPBOR
+601816 -> TZXAS
+601818 -> HUHJD
+601825 -> IGOHV
+601838 -> HOPVY
+601857 -> YIDLP
+601868 -> QNLEW
+601872 -> TTAPQ
+601877 -> GNNAF
+601878 -> JPQZD
+601881 -> WTALX
+601888 -> DSSYY
+601898 -> FVLBO
+601899 -> UPXRZ
+601901 -> HTEBZ
+601916 -> UNSJL
+601919 -> JTVNR
+601939 -> NGYNZ
+601985 -> VJSPS
+601988 -> IEAPL
+601995 -> OZWYQ
+601998 -> UFWWI
+603019 -> EIEZI
+603195 -> KPLXQ
+603259 -> BIFHF
+603260 -> BWNOA
+603288 -> BWKPA
+603296 -> DSJXA
+603369 -> HCNCE
+603392 -> KIJHM
+603501 -> CVBXI
+603799 -> IJSOZ
+603893 -> TDMFQ
+603986 -> IPSWU
+603993 -> OUJXZ
+605117 -> YJEPL
+605499 -> RNNGI
+688008 -> HOOKB
+688009 -> BRAWF
+688012 -> BQTJN
+688041 -> LEUNS
+688047 -> HHXGK
+688082 -> QYRBA
+688111 -> UATGL
+688126 -> LZUNO
+688169 -> GPISN
+688187 -> WCZVP
+688223 -> STTRF
+688256 -> RSXMD
+688271 -> JFHKW
+688303 -> FPDHI
+688396 -> PBBPR
+688472 -> BLMHP
+688506 -> JWAGT
+688981 -> EMSOC
+all_csi300_last_year -> LKKLC

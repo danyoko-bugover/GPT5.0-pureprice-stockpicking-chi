@@ -16,8 +16,8 @@ def main():
     print("=== 清理腳本（修正版） ===")
     print(f"目前目錄: {os.getcwd()}\n")
     
-    if not os.path.exists("save_sp500_prices.py"):
-        print("警告：沒找到 save_sp500_prices.py，看起來不在專案根目錄？")
+    if not os.path.exists("save_csi300_prices.py"):
+        print("警告：沒找到 save_csi300_prices.py，看起來不在專案根目錄？")
         ans = input("仍要繼續？(y/n): ").strip().lower()
         if ans != 'y':
             print("取消。")
