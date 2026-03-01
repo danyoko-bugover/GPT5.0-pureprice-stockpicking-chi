@@ -12,7 +12,11 @@ import matplotlib.font_manager as fm
 mpl.rcParams['font.family'] = ['Heiti TC', 'PingFang TC', 'Hiragino Sans', 'Microsoft YaHei', 'Arial Unicode MS', 'sans-serif']
 mpl.rcParams['axes.unicode_minus'] = False  # 避免負號變方塊
 
-
+# ── A股設定 ────────────────────────────────────────────
+#在輸入 A 股 ticker 時，請使用 Yahoo Finance 的格式：
+#- 上海證券交易所：600000.SS、681872.SS 等
+#- 深圳證券交易所：000023.SZ、302028.SZ 等
+# 這樣才能正確下載資料。
 
 # -----------------------------------------------------------------------------------
 # Author: Hunter Gould (原作者) + 修改版
@@ -20,10 +24,10 @@ mpl.rcParams['axes.unicode_minus'] = False  # 避免負號變方塊
 # -----------------------------------------------------------------------------------
 
 # ── 參數設定 ───────────────────────────────────────────────────────────────
-ASSETS = ["CIEN", "TER", "SNDK","WDC","MU","GLW","KEYS","STX","FIX","FDX"]  # 資產列表
+ASSETS = ["601872.SS","002028.SZ","600875.SS","000338.SZ","600522.SS","600026.SS","600176.SS","600219.SS","000792.SZ","603993.SS"]  # 資產列表
 START_DATE = '2025-02-28'
 END_DATE = '2026-02-28'
-MARKET_REPRESENTATION = 'SPY'  # 市場基準
+MARKET_REPRESENTATION = '510300.SS'  # 市場基準
 NUM_PORTFOLIOS = 100_000
 RISK_FREE_RATE = 0.03485  # 無風險利率
 
@@ -34,6 +38,10 @@ data = yf.download(ASSETS, start=START_DATE, end=END_DATE, auto_adjust=False)['C
 
 print("下載市場基準...")
 market_data = yf.download(MARKET_REPRESENTATION, start=START_DATE, end=END_DATE)['Close']
+
+# 強制確保是單一 Series，並取出數值
+if isinstance(market_data, pd.DataFrame):
+    market_data = market_data.iloc[:, 0]   # 取第一欄（通常只有一欄）
 
 # 檢查資料是否有缺漏
 if data.isnull().values.any():

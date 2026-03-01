@@ -1,281 +1,281 @@
-000001 -> DLOFS
-000002 -> ZHWSM
-000063 -> XTIOA
-000100 -> LDJLG
-000157 -> BUOPF
-000166 -> BOTBY
-000301 -> GFPRS
-000333 -> ZDKAF
-000338 -> ZTBWZ
-000408 -> KZIYL
-000425 -> HHVAG
-000538 -> SVDQO
-000568 -> DHSAT
-000596 -> HMYMP
-000617 -> BIJZY
-000625 -> BEQCT
-000630 -> LABXU
-000651 -> ZHXXP
-000661 -> NYULL
-000708 -> AYABA
-000725 -> SSKBD
-000768 -> KOEXK
-000776 -> TJXUA
-000792 -> HUTWX
-000807 -> ZPOZZ
-000858 -> HLQUO
-000876 -> OACVR
-000895 -> KBPSZ
-000938 -> XSTIR
-000963 -> OPRBO
-000975 -> KEGQV
-000977 -> MMMCO
-000983 -> ATCEA
-000999 -> IFTHQ
-001391 -> DEZTN
-001979 -> TOJAL
-002001 -> EDBAW
-002027 -> CRUYB
-002028 -> EYWOT
-002049 -> QCVDS
-002142 -> SIJNJ
-002179 -> CHFCC
-002230 -> UAYZZ
-002236 -> KVVBL
-002241 -> KWJET
-002252 -> ACLQI
-002304 -> VTBVZ
-002311 -> ZRUKK
-002352 -> UGWIL
-002371 -> UUQXL
-002384 -> XUUZA
-002415 -> GJMUI
-002422 -> ISTML
-002459 -> BTOCO
-002460 -> NYGEM
-002463 -> TGFWZ
-002466 -> ZGSRZ
-002475 -> ALQLL
-002594 -> POEWK
-002600 -> OOINC
-002601 -> TOGGL
-002625 -> KBXSD
-002648 -> NZMIT
-002709 -> QAIDH
-002714 -> TKXNW
-002736 -> RAXKD
-002916 -> WAHOP
-002920 -> EHPDB
-002938 -> WPRXQ
-003816 -> BDJJP
-300014 -> LMLRU
-300015 -> KFDNY
-300033 -> KEOUH
-300059 -> DLMNZ
-300122 -> RJJXZ
-300124 -> UYALL
-300251 -> ZAINS
-300274 -> GHTVC
-300308 -> APDKN
-300316 -> MECFE
-300347 -> CRVSA
-300394 -> REXWG
-300413 -> MIQUC
-300418 -> IXWYG
-300442 -> JEEVD
-300476 -> IWGDW
-300498 -> IJRLM
-300502 -> XHIUA
-300628 -> ZHGNY
-300661 -> DATNH
-300750 -> VQNJI
-300759 -> BGDWV
-300760 -> XYNAT
-300782 -> AXFAU
-300803 -> XWPFM
-300832 -> SBDKL
-300866 -> NCSVI
-300896 -> IPTHK
-300979 -> YBODQ
-300999 -> SEAJJ
-301236 -> AIKTE
-301269 -> XZYEG
-302132 -> MGTRV
-600009 -> ORRCZ
-600010 -> WKGMB
-600011 -> XTQJG
-600015 -> MLJRD
-600016 -> ZICXW
-600018 -> VHABG
-600019 -> FJFSA
-600023 -> CRMJH
-600025 -> IMXLC
-600026 -> LYEOU
-600027 -> NMTUS
-600028 -> SSKPN
-600029 -> UNPPZ
-600030 -> ZRJOM
-600031 -> DQDQZ
-600036 -> HCGBE
-600039 -> FXSUX
-600048 -> KSLMA
-600050 -> EKFWO
-600061 -> FSPCF
-600066 -> OGGXZ
-600089 -> ETTEP
-600111 -> TDWGN
-600115 -> ROMBK
-600150 -> HCXOL
-600160 -> RKRCW
-600161 -> OIFUI
-600176 -> VHYXK
-600183 -> IZGOH
-600188 -> NSVEW
-600219 -> FNODT
-600233 -> KUHHB
-600276 -> IOUJO
-600346 -> LQYVY
-600362 -> NXAYG
-600372 -> DKEBW
-600377 -> MLQVU
-600406 -> TDCPQ
-600415 -> MHHEC
-600426 -> PEILL
-600436 -> BGIAM
-600438 -> HPEQY
-600482 -> BNHBH
-600489 -> GJQAL
-600515 -> IZMMH
-600519 -> TPQGF
-600522 -> TLBJK
-600547 -> HAMYC
-600570 -> QSECK
-600585 -> SEIUU
-600588 -> MHUYT
-600600 -> QDVMX
-600660 -> ADHWA
-600674 -> CEIDY
-600690 -> LGHSR
-600760 -> YNXMP
-600803 -> QMMCV
-600809 -> XCWLK
-600845 -> NCLOW
-600875 -> ADOZR
-600886 -> AUZMW
-600887 -> OTAOW
-600893 -> LZYWK
-600905 -> VWCEC
-600918 -> QFJFI
-600919 -> MTAKP
-600926 -> SZBKU
-600930 -> ULLZW
-600938 -> LPRLK
-600958 -> ZXBVG
-600989 -> YFJTY
-600999 -> ARUJH
-601006 -> JCIXF
-601009 -> KBPDI
-601012 -> YMQHW
-601018 -> QOQVO
-601021 -> MNXXD
-601058 -> WCGKP
-601059 -> NHRHB
-601066 -> XHPKI
-601077 -> AOABR
-601088 -> JBLBJ
-601100 -> FOEKQ
-601111 -> THKAZ
-601127 -> BVYLR
-601136 -> DJLYT
-601138 -> HXBOP
-601166 -> HVGVZ
-601169 -> MFOSX
-601186 -> TMDLN
-601211 -> HJIPQ
-601225 -> SSPND
-601229 -> QPPUR
-601236 -> ILWVL
-601238 -> ZRMYQ
-601288 -> MUAVS
-601298 -> UTLHM
-601318 -> SMRWZ
-601319 -> LTZMM
-601328 -> PAQMP
-601336 -> CHSCI
-601360 -> PHGAD
-601377 -> RHQHK
-601390 -> VGWNQ
-601398 -> JMLEM
-601456 -> IIQRN
-601600 -> MXFWL
-601601 -> DZRVH
-601607 -> HKREX
-601618 -> IJZMT
-601628 -> XBJYQ
-601633 -> SXQNM
-601658 -> HSOIJ
-601668 -> XKLAW
-601669 -> PGLHQ
-601688 -> OQOUH
-601689 -> OBQXP
-601698 -> DUJQC
-601728 -> RQIUB
-601766 -> VCERU
-601788 -> FMSNE
-601800 -> TGIZN
-601808 -> ZPBOR
-601816 -> TZXAS
-601818 -> HUHJD
-601825 -> IGOHV
-601838 -> HOPVY
-601857 -> YIDLP
-601868 -> QNLEW
-601872 -> TTAPQ
-601877 -> GNNAF
-601878 -> JPQZD
-601881 -> WTALX
-601888 -> DSSYY
-601898 -> FVLBO
-601899 -> UPXRZ
-601901 -> HTEBZ
-601916 -> UNSJL
-601919 -> JTVNR
-601939 -> NGYNZ
-601985 -> VJSPS
-601988 -> IEAPL
-601995 -> OZWYQ
-601998 -> UFWWI
-603019 -> EIEZI
-603195 -> KPLXQ
-603259 -> BIFHF
-603260 -> BWNOA
-603288 -> BWKPA
-603296 -> DSJXA
-603369 -> HCNCE
-603392 -> KIJHM
-603501 -> CVBXI
-603799 -> IJSOZ
-603893 -> TDMFQ
-603986 -> IPSWU
-603993 -> OUJXZ
-605117 -> YJEPL
-605499 -> RNNGI
-688008 -> HOOKB
-688009 -> BRAWF
-688012 -> BQTJN
-688041 -> LEUNS
-688047 -> HHXGK
-688082 -> QYRBA
-688111 -> UATGL
-688126 -> LZUNO
-688169 -> GPISN
-688187 -> WCZVP
-688223 -> STTRF
-688256 -> RSXMD
-688271 -> JFHKW
-688303 -> FPDHI
-688396 -> PBBPR
-688472 -> BLMHP
-688506 -> JWAGT
-688981 -> EMSOC
-all_csi300_last_year -> LKKLC
+# new_basename	original_path
+kjspq	data_processed/000001.csv
+fayzi	data_processed/000002.csv
+pwahd	data_processed/000063.csv
+btccp	data_processed/000100.csv
+hvzfn	data_processed/000157.csv
+zahen	data_processed/000166.csv
+lsdrh	data_processed/000301.csv
+chxph	data_processed/000333.csv
+pnmhm	data_processed/000338.csv
+kiqoe	data_processed/000408.csv
+axlbv	data_processed/000425.csv
+npwki	data_processed/000538.csv
+uxhga	data_processed/000568.csv
+dwpps	data_processed/000596.csv
+vtjae	data_processed/000617.csv
+gugrp	data_processed/000625.csv
+uzumf	data_processed/000630.csv
+mpqso	data_processed/000651.csv
+efjmq	data_processed/000661.csv
+uyqhq	data_processed/000708.csv
+lmdjv	data_processed/000725.csv
+xirrg	data_processed/000768.csv
+mjmur	data_processed/000776.csv
+zmdov	data_processed/000792.csv
+sfsds	data_processed/000807.csv
+hnkct	data_processed/000858.csv
+kkhuk	data_processed/000876.csv
+pdmyq	data_processed/000895.csv
+qguho	data_processed/000938.csv
+tekde	data_processed/000963.csv
+dvijw	data_processed/000975.csv
+gfhpn	data_processed/000977.csv
+fpvvw	data_processed/000983.csv
+uvegw	data_processed/000999.csv
+iialj	data_processed/001391.csv
+jsyim	data_processed/001979.csv
+rdgrt	data_processed/002001.csv
+ztdpz	data_processed/002027.csv
+nrcuv	data_processed/002028.csv
+sgvqy	data_processed/002049.csv
+xszrw	data_processed/002142.csv
+gtudb	data_processed/002179.csv
+nbwph	data_processed/002230.csv
+ikzxv	data_processed/002236.csv
+awzqb	data_processed/002241.csv
+lzxja	data_processed/002252.csv
+bmnvc	data_processed/002304.csv
+kfqjs	data_processed/002311.csv
+rssvz	data_processed/002352.csv
+amrga	data_processed/002371.csv
+plcgf	data_processed/002384.csv
+pmeag	data_processed/002415.csv
+cmubm	data_processed/002422.csv
+pquye	data_processed/002459.csv
+gmntd	data_processed/002460.csv
+gtatr	data_processed/002463.csv
+kyqen	data_processed/002466.csv
+vupyl	data_processed/002475.csv
+rekpa	data_processed/002594.csv
+fsaik	data_processed/002600.csv
+nhsuo	data_processed/002601.csv
+cshpn	data_processed/002625.csv
+sonyk	data_processed/002648.csv
+lewmt	data_processed/002709.csv
+ifdgb	data_processed/002714.csv
+qgark	data_processed/002736.csv
+ijxnk	data_processed/002916.csv
+vjkkr	data_processed/002920.csv
+zxkxm	data_processed/002938.csv
+szzee	data_processed/003816.csv
+iwkln	data_processed/300014.csv
+fzdjk	data_processed/300015.csv
+hpqhh	data_processed/300033.csv
+jbtqf	data_processed/300059.csv
+nhygn	data_processed/300122.csv
+hdwts	data_processed/300124.csv
+qwnmr	data_processed/300251.csv
+hyhyw	data_processed/300274.csv
+xewfk	data_processed/300308.csv
+dhobc	data_processed/300316.csv
+hooej	data_processed/300347.csv
+qfemf	data_processed/300394.csv
+asfsl	data_processed/300413.csv
+njngb	data_processed/300418.csv
+dlzxf	data_processed/300442.csv
+cnejd	data_processed/300476.csv
+oglhm	data_processed/300498.csv
+kssba	data_processed/300502.csv
+ktetl	data_processed/300628.csv
+rnfdo	data_processed/300661.csv
+exbts	data_processed/300750.csv
+ghqcd	data_processed/300759.csv
+tdwua	data_processed/300760.csv
+wqcir	data_processed/300782.csv
+eraxc	data_processed/300803.csv
+utzjv	data_processed/300832.csv
+eabgj	data_processed/300866.csv
+towzz	data_processed/300896.csv
+sqtay	data_processed/300979.csv
+woarx	data_processed/300999.csv
+dhyiz	data_processed/301236.csv
+qzpek	data_processed/301269.csv
+fupsy	data_processed/302132.csv
+joveq	data_processed/600009.csv
+cjbdi	data_processed/600010.csv
+zkagf	data_processed/600011.csv
+akacp	data_processed/600015.csv
+qlwgb	data_processed/600016.csv
+zzzzc	data_processed/600018.csv
+usmoq	data_processed/600019.csv
+rmocr	data_processed/600023.csv
+axdbi	data_processed/600025.csv
+lzakx	data_processed/600026.csv
+rorpo	data_processed/600027.csv
+uixbp	data_processed/600028.csv
+ocoaa	data_processed/600029.csv
+mkejl	data_processed/600030.csv
+vtwfu	data_processed/600031.csv
+sgjiz	data_processed/600036.csv
+pegiy	data_processed/600039.csv
+vlcmt	data_processed/600048.csv
+bwgdl	data_processed/600050.csv
+ssjje	data_processed/600061.csv
+adhqo	data_processed/600066.csv
+amogs	data_processed/600089.csv
+rxxri	data_processed/600111.csv
+ozlgn	data_processed/600115.csv
+cqzse	data_processed/600150.csv
+pdtdi	data_processed/600160.csv
+shohe	data_processed/600161.csv
+xijqn	data_processed/600176.csv
+mxxbm	data_processed/600183.csv
+yrpda	data_processed/600188.csv
+xzkiy	data_processed/600219.csv
+avkhi	data_processed/600233.csv
+kugwl	data_processed/600276.csv
+nfelu	data_processed/600346.csv
+tzruq	data_processed/600362.csv
+lsaln	data_processed/600372.csv
+stovg	data_processed/600377.csv
+piuum	data_processed/600406.csv
+nzfqe	data_processed/600415.csv
+vljnf	data_processed/600426.csv
+shqef	data_processed/600436.csv
+ejrtl	data_processed/600438.csv
+yshfi	data_processed/600482.csv
+dtwkd	data_processed/600489.csv
+tlzyq	data_processed/600515.csv
+ntivy	data_processed/600519.csv
+xvzkf	data_processed/600522.csv
+whilq	data_processed/600547.csv
+nuwjy	data_processed/600570.csv
+twmgs	data_processed/600585.csv
+dpqqz	data_processed/600588.csv
+cqugo	data_processed/600600.csv
+jzlpm	data_processed/600660.csv
+wuccn	data_processed/600674.csv
+qhmbs	data_processed/600690.csv
+sktqo	data_processed/600760.csv
+jugeg	data_processed/600803.csv
+lssan	data_processed/600809.csv
+galas	data_processed/600845.csv
+qzukm	data_processed/600875.csv
+ijahi	data_processed/600886.csv
+msoak	data_processed/600887.csv
+pembb	data_processed/600893.csv
+lzbuo	data_processed/600905.csv
+ymnoi	data_processed/600918.csv
+ctnel	data_processed/600919.csv
+yjvon	data_processed/600926.csv
+drxgm	data_processed/600930.csv
+ebqtg	data_processed/600938.csv
+eezzo	data_processed/600958.csv
+emrqj	data_processed/600989.csv
+eanwu	data_processed/600999.csv
+locno	data_processed/601006.csv
+vfief	data_processed/601009.csv
+lneky	data_processed/601012.csv
+tznmt	data_processed/601018.csv
+ilfxr	data_processed/601021.csv
+fbtov	data_processed/601058.csv
+gqcbo	data_processed/601059.csv
+vagwq	data_processed/601066.csv
+sfcuw	data_processed/601077.csv
+occwh	data_processed/601088.csv
+otmth	data_processed/601100.csv
+crwnn	data_processed/601111.csv
+bkaav	data_processed/601127.csv
+gipvs	data_processed/601136.csv
+ffrmw	data_processed/601138.csv
+vhvmw	data_processed/601166.csv
+kscnm	data_processed/601169.csv
+xhsqo	data_processed/601186.csv
+emzpr	data_processed/601211.csv
+tdibm	data_processed/601225.csv
+qztaw	data_processed/601229.csv
+psltn	data_processed/601236.csv
+rmfro	data_processed/601238.csv
+ihznj	data_processed/601288.csv
+wsryw	data_processed/601298.csv
+rkkvg	data_processed/601318.csv
+qfqmw	data_processed/601319.csv
+bkfcb	data_processed/601328.csv
+xturu	data_processed/601336.csv
+dqtck	data_processed/601360.csv
+kfjbm	data_processed/601377.csv
+sohdu	data_processed/601390.csv
+hvjjn	data_processed/601398.csv
+aslzm	data_processed/601456.csv
+eggrl	data_processed/601600.csv
+yxyaj	data_processed/601601.csv
+ynpyc	data_processed/601607.csv
+mdnrn	data_processed/601618.csv
+stbaw	data_processed/601628.csv
+psaov	data_processed/601633.csv
+aerxd	data_processed/601658.csv
+mcirb	data_processed/601668.csv
+wsckp	data_processed/601669.csv
+uievl	data_processed/601688.csv
+jvxbp	data_processed/601689.csv
+azrfv	data_processed/601698.csv
+nxrcn	data_processed/601728.csv
+zyoif	data_processed/601766.csv
+mtbqq	data_processed/601788.csv
+eyxaz	data_processed/601800.csv
+ypwni	data_processed/601808.csv
+rvvmk	data_processed/601816.csv
+hejdk	data_processed/601818.csv
+ysjnm	data_processed/601825.csv
+zmkay	data_processed/601838.csv
+uxtst	data_processed/601857.csv
+hypmy	data_processed/601868.csv
+srgsv	data_processed/601872.csv
+tgtdh	data_processed/601877.csv
+ysohe	data_processed/601878.csv
+wwsgz	data_processed/601881.csv
+oubzj	data_processed/601888.csv
+ugpwf	data_processed/601898.csv
+spyhf	data_processed/601899.csv
+gwegf	data_processed/601901.csv
+ihkit	data_processed/601916.csv
+utnyt	data_processed/601919.csv
+hwfdp	data_processed/601939.csv
+ztnnh	data_processed/601985.csv
+imgak	data_processed/601988.csv
+idwrs	data_processed/601995.csv
+urixi	data_processed/601998.csv
+plbpm	data_processed/603019.csv
+akpcs	data_processed/603195.csv
+jyqlp	data_processed/603259.csv
+mvsnh	data_processed/603260.csv
+hshxi	data_processed/603288.csv
+qoyzh	data_processed/603296.csv
+siwny	data_processed/603369.csv
+psqwd	data_processed/603392.csv
+nymoh	data_processed/603501.csv
+ipyjj	data_processed/603799.csv
+odbza	data_processed/603893.csv
+pnwxd	data_processed/603986.csv
+yzjga	data_processed/603993.csv
+xrqqz	data_processed/605117.csv
+bjotr	data_processed/605499.csv
+uvqac	data_processed/688008.csv
+necbs	data_processed/688009.csv
+xoqar	data_processed/688012.csv
+kyyqg	data_processed/688041.csv
+vlorl	data_processed/688047.csv
+mgiaq	data_processed/688082.csv
+jjeas	data_processed/688111.csv
+xlwoa	data_processed/688126.csv
+chacw	data_processed/688169.csv
+pjsde	data_processed/688187.csv
+tcgjf	data_processed/688223.csv
+hkejx	data_processed/688256.csv
+ulfty	data_processed/688271.csv
+apqqc	data_processed/688303.csv
+ruteg	data_processed/688396.csv
+zitrs	data_processed/688472.csv
+rjogr	data_processed/688506.csv
+gnsxl	data_processed/688981.csv
