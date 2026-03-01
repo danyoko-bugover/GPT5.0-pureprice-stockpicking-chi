@@ -29,7 +29,7 @@ START_DATE = '2025-02-28'
 END_DATE = '2026-02-28'
 MARKET_REPRESENTATION = '510300.SS'  # 市場基準
 NUM_PORTFOLIOS = 100_000
-RISK_FREE_RATE = 0.03485  # 無風險利率
+RISK_FREE_RATE = 0.01310 # 無風險利率
 
 
 # ── 資料下載 ────────────────────────────────────────────────────────────────

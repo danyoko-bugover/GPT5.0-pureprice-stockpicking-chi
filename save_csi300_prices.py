@@ -3,7 +3,7 @@
 """
 save_csi300_prices.py - A股滬深300成分股價格下載工具（一檔一檔存版）
 檔名格式：純6位數字.csv（例如 600000.csv），直接存放在 data/ 底下
-執行：python save_csi300_prices.py [--days 365] [--sleep 1.0]
+執行：python save_csi300_prices.py [--days 365] [--sleep 0.1]
 """
 
 import os
@@ -19,7 +19,7 @@ import yfinance as yf
 DATA_DIR = "data"
 # 不再使用 STOCK_DIR 子資料夾，直接用 DATA_DIR
 
-DEFAULT_SLEEP = 0.05
+DEFAULT_SLEEP = 0.1
 DEFAULT_DAYS = 365
 MAX_RETRY = 2
 
